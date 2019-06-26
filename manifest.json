@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Buddhy",
+    "author": "odmishien",
+    "version": "0.0.1",
+    "description": "悟りを開くのです...",
+    "icons" : {
+        "32": "icons/buddha_32.png",
+        "48": "icons/buddha_48.png",
+        "128": "icons/buddha_128.png"
+    },
+    "browser_action":{
+        "default_icon":{
+            "32": "icons/buddha_32.png",
+            "48": "icons/buddha_48.png",
+            "128": "icons/buddha_128.png"
+        },
+        "default_title": "悟りませんか??",
+        "default_popup": "src/html/popup.html"
+    },
+    "permissions": ["tabs"],
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
+        }
+    ]
+}
