@@ -1,6 +1,6 @@
 # Buddhy
 
-![Buddhy](https://4.bp.blogspot.com/-nWEWqM2DgFc/VD3SPZAF3YI/AAAAAAAAoQk/ntIce7P-wek/s800/nigaoe_buddha.png)
+<img src="https://4.bp.blogspot.com/-nWEWqM2DgFc/VD3SPZAF3YI/AAAAAAAAoQk/ntIce7P-wek/s800/nigaoe_buddha.png" width="50%" height="50%">
 
 ## これは何 What is this?
 
