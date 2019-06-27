@@ -21,7 +21,31 @@
     "permissions": ["tabs"],
     "content_scripts": [
         {
-            "matches": ["http://*/*", "https://*/*"],
+            "matches": ["http://www.tokyo-porn-tube.com/*", "https://www.tokyo-porn-tube.com/*"],
+            "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
+        },
+        {
+            "matches": ["http://www.xvideos.com/*", "https://www.xvideos.com/*"],
+            "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
+        },
+        {
+            "matches": ["http://video.fc2.com/a/*", "https://video.fc2.com/a/*"],
+            "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
+        },
+        {
+            "matches": ["http://jp.xhamster.com/*", "https://jp.xhamster.com/*"],
+            "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
+        },
+        {
+            "matches": ["http://jp.tube8.com/*", "https://jp.tube8.com/*"],
+            "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
+        },
+        {
+            "matches": ["http://jp.pornhub.com/*", "https://jp.pornhub.com/*"],
+            "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
+        },
+        {
+            "matches": ["http://avgle.com/*", "https://avgle.com/*"],
             "js": ["src/js/jquery.min.js", "src/js/buddhy.js"]
         }
     ]
